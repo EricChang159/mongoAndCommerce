@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const comData = require('./src/static/pros-list.json')
 console.log(comData)
 
-mongoose.connect('mongodb://bac_test:mongo@192.168.1.216:2717/bac_test',{
+mongoose.connect('mongodb://user:password@192.168.1.216:2717/bac_test',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 },
